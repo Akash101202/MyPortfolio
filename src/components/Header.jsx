@@ -1,9 +1,9 @@
 export default function Header({ onHandleSelect }) {
   return (
     <>
-      <nav className="bg-stone-800 px-5 py-3 rounded-t-xl header">
-        <div>
-          <ul className="text-stone-200 font-bold">
+      <nav className="bg-stone-800 px-5 py-3 rounded-t-xl">
+        <div className="flex justify-center">
+          <ul className="flex flex-col sm:flex-row gap-4 text-stone-200 font-bold">
             <li
               className="hover:text-yellow-500 cursor-pointer"
               onClick={() => onHandleSelect("about")}

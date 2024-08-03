@@ -7,12 +7,14 @@ import Contact from "./Contact";
 export default function MainComponent({ activeState, onHandleSelect }) {
   return (
     <>
-      <div className="">
+      <div className="w-full p-4 md:p-8">
         <Header activeState={activeState} onHandleSelect={onHandleSelect} />
-        {activeState === "about" && <AboutMe />}
-        {activeState === "resume" && <Resume />}
-        {activeState === "portfolio" && <Portfolio />}
-        {activeState === "contact" && <Contact />}
+        <div className="mt-4">
+          {activeState === "about" && <AboutMe />}
+          {activeState === "resume" && <Resume />}
+          {activeState === "portfolio" && <Portfolio />}
+          {activeState === "contact" && <Contact />}
+        </div>
       </div>
     </>
   );

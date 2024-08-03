@@ -65,7 +65,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className="w-1/6 px-4 py-2 flex bg-stone-800 text-white font-semibold rounded-md shadow-sm hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-stone-500 focus:ring-offset-2 mx-auto">
+            <div className="w-1/6 px-4 py-2 flex bg-stone-800 text-white font-semibold rounded-md shadow-sm hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-stone-500 focus:ring-offset-2">
               <BsFillSendFill className="mr-3 mt-1" size={30} />
               <button type="submit" className="pr-6">
                 Send
