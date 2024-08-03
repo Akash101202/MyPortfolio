@@ -2,7 +2,9 @@ import profileImg from "../assets/Akku1.jpg";
 import FloatingCard from "./FloatingCard";
 import { FaGripLines } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
-import { FaPhoneAlt, FaLinkedin, FaLocationDot } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 export default function Sidebar() {
   return (
