@@ -30,7 +30,7 @@ const MapComponent = () => {
           zoom: 14, // Adjust zoom level as needed
         }}
         style={{ width: "100%", height: "100%" }}
-        mapStyle="mapbox://styles/mapbox/dark-v11"
+        mapStyle="mapbox://styles/mapbox/streets-v12"
         mapboxAccessToken={MAPBOX_TOKEN}
       >
         <NavigationControl position="top-right" />

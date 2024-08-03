@@ -5,10 +5,11 @@ import { MdAttachEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
-    <div className="px-8 mt-5 bg-stone-900 text-stone-50 rounded-xl h-screen fixed w-64 sidebar">
+    <div className="px-8 mt-5 bg-stone-900 text-stone-50 rounded-xl h-screen sm:w-full w-64 sidebar lg:h-1/2">
       <div>
         <FloatingCard>
           <img src={profileImg} alt="" className="w-50" />
@@ -26,7 +27,16 @@ export default function Sidebar() {
               <h4>Email</h4>
             </MdAttachEmail>
 
-            <p className="text-stone-400">p.akash1012@gmail.com</p>
+            <p className="text-stone-400">
+              <a
+                href="mailto:p.akash1012@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-stone-400 hover:underline hover:text-yellow-500"
+              >
+                p.akash101202@gmail.com
+              </a>
+            </p>
           </li>
           <li className="border-b-2 border-t-2">
             <FaPhoneAlt size={20} style={{ color: "gold" }} />
@@ -36,7 +46,16 @@ export default function Sidebar() {
           <li className="border-b-2 border-t-2">
             <FaLinkedin size={20} style={{ color: "gold" }} />
 
-            <p className="text-stone-400">www.linkedin.com/in/p-akash02</p>
+            <p className="text-stone-400">
+              <a
+                href="https://www.linkedin.com/in/p-akash02"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-stone-400 hover:underline hover:text-yellow-500"
+              >
+                www.linkedin.com/in/p-akash02
+              </a>
+            </p>
           </li>
           <li className="border-b-2 border-t-2">
             <FaLocationDot size={20} style={{ color: "gold" }} />

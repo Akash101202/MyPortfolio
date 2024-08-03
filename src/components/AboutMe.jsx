@@ -5,7 +5,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { FaGuitar } from "react-icons/fa";
 import { MdOutlineSportsHandball } from "react-icons/md";
 
-export default function AboutMe({ onHandleSelect, activeState }) {
+export default function AboutMe({ activeState }) {
   return (
     <div className="px-4 sm:px-8 bg-stone-900 text-stone-50 rounded-l-xl">
       <div className="px-4 sm:px-9 py-3">
@@ -35,7 +35,7 @@ export default function AboutMe({ onHandleSelect, activeState }) {
           <FaGripLines size={48} style={{ color: "gold" }} />
         </h2>
       </div>
-      <div className="ml-6 sm:ml-12">
+      <div className="">
         <div className="flex flex-col sm:flex-row gap-8 pb-3 card">
           <FloatingCard>
             <div className="flex gap-5">
@@ -44,7 +44,7 @@ export default function AboutMe({ onHandleSelect, activeState }) {
                 Web Development
               </h2>
             </div>
-            <p className="text-stone-400 px-6 sm:px-16 text-sm sm:text-base">
+            <p className="text-stone-400 px-6 text-sm sm:text-base">
               "Crafting seamless web experiences with a blend of creativity and
               technical expertise."
             </p>
@@ -56,18 +56,18 @@ export default function AboutMe({ onHandleSelect, activeState }) {
                 Learning Next js
               </h2>
             </div>
-            <p className="text-stone-400 px-6 sm:px-16 text-sm sm:text-base">
+            <p className="text-stone-400 px-6  text-sm sm:text-base">
               "Building a robust and scalable web application using Next.js to
               server-side rendering and optimization"
             </p>
           </FloatingCard>
         </div>
       </div>
-      <h2 className="px-3 pb-4 font-bold mb-3 mt-8 ml-6 sm:ml-8 text-lg sm:text-xl md:text-2xl">
+      <h2 className="px-3 pb-4 font-bold mb-3 mt-8 ml-6 text-lg sm:text-xl md:text-2xl">
         Other Interests
         <FaGripLines size={48} style={{ color: "gold" }} />
       </h2>
-      <div className="flex flex-col sm:flex-row gap-8 px-4 sm:px-8 py-8">
+      <div className="flex flex-col sm:flex-row gap-6 px-4 sm:py-8">
         <FloatingCard>
           <div className="flex gap-5">
             <FaGuitar size={48} style={{ color: "gold" }} />
@@ -75,7 +75,7 @@ export default function AboutMe({ onHandleSelect, activeState }) {
               Music
             </h2>
           </div>
-          <p className="text-stone-400 px-6 sm:px-16 text-sm sm:text-base">
+          <p className="text-stone-400 px-6  text-sm sm:text-base">
             "Music is my escape, my passion, and my creative outlet."
           </p>
         </FloatingCard>
@@ -86,7 +86,7 @@ export default function AboutMe({ onHandleSelect, activeState }) {
               Reading
             </h2>
           </div>
-          <p className="text-stone-400 px-6 sm:px-16 text-sm sm:text-base">
+          <p className="text-stone-400 px-6  text-sm sm:text-base">
             "Books are my gateway to endless worlds and adventures."
           </p>
         </FloatingCard>

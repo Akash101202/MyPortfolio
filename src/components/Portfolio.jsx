@@ -10,12 +10,14 @@ import Card from "./Card";
 export default function Portfolio() {
   return (
     <>
-      <div className="px-8 py-8 bg-stone-900 text-stone-50 md:w-50 rounded-b-xl rounded-l-xl">
-        <div className="px-9 py-3">
-          <h1 className="px-3 pb-4 font-bold mb-3">
-            Portfolio
-            <FaGripLines size={48} style={{ color: "gold" }} />
-          </h1>
+      <div className="px-4 sm:px-8 bg-stone-900 text-stone-50 rounded-l-xl">
+        <div className="px-4 sm:px-9 py-3">
+          <div className="flex">
+            <h1 className="px-3 pb-4 font-bold mb-3 mt-8 text-lg sm:text-xl md:text-2xl">
+              PortFolio
+              <FaGripLines size={48} style={{ color: "gold" }} />
+            </h1>
+          </div>
         </div>
 
         <Card

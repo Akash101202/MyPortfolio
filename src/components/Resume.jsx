@@ -3,16 +3,23 @@ import { FaBookOpen } from "react-icons/fa";
 import { IoEllipsisVerticalOutline } from "react-icons/io5";
 import { FaRegDotCircle } from "react-icons/fa";
 import FloatingCard from "./FloatingCard";
+import Card from "./Card";
+import XcelCorp from "../assets/XcelCorp.jpg";
+import Prinston from "../assets/Prinston.jpg";
+import GenerativeAi from "../assets/GenerativeAi.jpg";
+import UdemyWeb from "../assets/UdemyWeb.jpg";
 
 export default function Skills() {
   return (
     <>
-      <div className="px-8 py-8 bg-stone-900 text-stone-50 md:w-50 rounded-b-xl rounded-l-xl">
-        <div className="px-9 py-3">
-          <h1 className="px-3 pb-4 font-bold mb-3">
-            Resume
-            <FaGripLines size={48} style={{ color: "gold" }} />
-          </h1>
+      <div className="px-4 sm:px-8 bg-stone-900 text-stone-50 rounded-l-xl">
+        <div className="px-4 sm:px-9 py-3">
+          <div className="flex">
+            <h1 className="px-3 pb-4 font-bold mb-3 mt-8 text-lg sm:text-xl md:text-2xl">
+              Resume
+              <FaGripLines size={48} style={{ color: "gold" }} />
+            </h1>
+          </div>
           <div className="flex mb-2">
             <FaBookOpen size={30} className="mt-2" />
             <h2 className="px-4 font-bold">Education</h2>
@@ -92,8 +99,9 @@ export default function Skills() {
           </menu>
         </div>
         <h2 className="font-bold">My Skills</h2>
+        <FaGripLines size={48} style={{ color: "gold" }} />
         <FloatingCard>
-          <div className="flex">
+          <div className="lg:flex sm:px-20">
             <h3 className="px-3">Web Development 80%</h3>
             <progress value="80" max="100" />
 
@@ -104,6 +112,34 @@ export default function Skills() {
             <progress value="60" max="100" />
           </div>
         </FloatingCard>
+        <h2 className="font-bold mt-8">Interships</h2>
+        <FaGripLines size={48} style={{ color: "gold" }} />
+        <div className="flex gap-8">
+          <Card
+            title="Xcel Corp"
+            description="1 month internship at Xcel Corp"
+            image={XcelCorp}
+          />
+          <Card
+            title="Prinston Smart Engineers"
+            description="1 month internship at Prinston Smart Engineers"
+            image={Prinston}
+          />
+        </div>
+        <h2 className="font-bold mt-8">Interships</h2>
+        <FaGripLines size={48} style={{ color: "gold" }} />
+        <div className="flex gap-8">
+          <Card
+            title="LinkedIn"
+            description="Course Completion Certificate"
+            image={GenerativeAi}
+          />
+          <Card
+            title="Udemy"
+            description="FullStack Course Completion Certificate"
+            image={UdemyWeb}
+          />
+        </div>
       </div>
     </>
   );
