@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+nav ul li {
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+body {
+  background-color: black;
+}
+
+.fixed-size-container {
+  height: 80%;
+  width: 70%;
+  padding: 1rem;
+  margin-left: 20%;
+  margin-top: 25px;
+}
+
+.sidebar {
+  height: 90%;
+}
+
+.header {
+  margin-left: 35%;
+  font-size: medium;
+  display: flex;
+}
+
+progress[value] {
+  --color: gold; /* the progress color */
+  --background: rgb(255, 245, 245); /* the background color */
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: 200px;
+  margin: 0 10px;
+  border-radius: 10em;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 10em;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+  border-radius: 10em;
+  background: var(--color);
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+}
