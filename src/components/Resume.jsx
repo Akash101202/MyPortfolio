@@ -112,7 +112,7 @@ export default function Skills() {
             <progress value="60" max="100" />
           </div>
         </FloatingCard>
-        <h2 className="font-bold mt-8">Interships</h2>
+        <h2 className="font-bold mt-8">Internships</h2>
         <FaGripLines size={48} style={{ color: "gold" }} />
         <div className="flex gap-8">
           <Card
@@ -126,7 +126,7 @@ export default function Skills() {
             image={Prinston}
           />
         </div>
-        <h2 className="font-bold mt-8">Interships</h2>
+        <h2 className="font-bold mt-8">Certificates</h2>
         <FaGripLines size={48} style={{ color: "gold" }} />
         <div className="flex gap-8">
           <Card
