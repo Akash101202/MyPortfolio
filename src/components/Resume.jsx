@@ -141,11 +141,14 @@ export default function Skills() {
             image={UdemyWeb}
           />
         </div>
-        <Card
-          title="Udemy"
-          description="Python for Data Science and Machine Learning"
-          image={UdemyData}
-        />
+        <div className="felx gap-8">
+          <Card
+            title="Udemy"
+            description="Python for Data Science and Machine Learning"
+            image={UdemyData}
+          />
+          <Card title="Learning" description="Learning" image={UdemyData} />
+        </div>
       </div>
     </>
   );
