@@ -102,14 +102,14 @@ export default function Skills() {
         <FaGripLines size={48} style={{ color: "gold" }} />
         <FloatingCard>
           <div className="lg:flex sm:px-20">
-            <h3 className="px-3">Web Development 80%</h3>
+            <h3 className="px-3">MERN Stack 80%</h3>
             <progress value="80" max="100" />
 
-            <h3 className="px-3">Graphic Design 80%</h3>
-            <progress value="80" max="100" />
-
-            <h3 className="px-3">Next js 60%</h3>
+            <h3 className="px-3">Django 60%</h3>
             <progress value="60" max="100" />
+
+            <h3 className="px-3">Javascript 80%</h3>
+            <progress value="80" max="100" />
           </div>
         </FloatingCard>
         <h2 className="font-bold mt-8">Internships</h2>
