@@ -8,6 +8,7 @@ import XcelCorp from "../assets/XcelCorp.jpg";
 import Prinston from "../assets/Prinston.jpg";
 import GenerativeAi from "../assets/GenerativeAi.jpg";
 import UdemyWeb from "../assets/UdemyWeb.jpg";
+import UdemyData from "../assets/DataScience.jpg";
 
 export default function Skills() {
   return (
@@ -140,6 +141,11 @@ export default function Skills() {
             image={UdemyWeb}
           />
         </div>
+        <Card
+          title="Udemy"
+          description="Python for Data Science and Machine Learning"
+          image={UdemyData}
+        />
       </div>
     </>
   );
