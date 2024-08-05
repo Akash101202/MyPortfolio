@@ -103,13 +103,16 @@ export default function Skills() {
         <FaGripLines size={48} style={{ color: "gold" }} />
         <FloatingCard>
           <div className="lg:flex sm:px-20">
-            <h3 className="px-3">MERN Stack 80%</h3>
+            <h3 className="px-3">MERN 80%</h3>
             <progress value="80" max="100" />
 
             <h3 className="px-3">Django 60%</h3>
             <progress value="60" max="100" />
 
             <h3 className="px-3">Javascript 80%</h3>
+            <progress value="80" max="100" />
+
+            <h3 className="px-3">Python 80%</h3>
             <progress value="80" max="100" />
           </div>
         </FloatingCard>
@@ -141,13 +144,13 @@ export default function Skills() {
             image={UdemyWeb}
           />
         </div>
-        <div className="felx gap-8">
+        <div className="flex gap-8">
           <Card
             title="Udemy"
             description="Python for Data Science and Machine Learning"
             image={UdemyData}
           />
-          <Card title="Learning" description="Learning" image={UdemyData} />
+          <Card title="Learning" description="Learning" />
         </div>
       </div>
     </>
